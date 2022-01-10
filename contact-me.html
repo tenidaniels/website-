@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact me</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/css/styles.css">
+    <script src='main.js'></script>
+<script>
+    function displayDate(){
+        document.getElementById("showDate").innerHTML = Date();
+    }
+</script>
+</head>
+<body>
+
+    <h1>My Contact details</h1>
+    <p><b>Hostel:</b> Rm 29A, Silver 3 Male hall </p>
+    <p><b>Telephone no:</b> +2349020791059 </p>
+    <p><b>Whatsapp:</b><a href="https://wa.me/+2348186151624">whatsapp-chat-link</a></p>
+    <p><b>Email:</b>tenidaniels@gmail.com</p>
+    <p><b>Linkedin:</b><a href="https://www.linkedin.com/in/olubowale-oluwateniola-362905200">linkedin-profile</a></p>
+
+    <form  action="mailto:tenidaniels@gmail.com" method="post" enctype="text/plain">
+    <label>
+        Your Name: 
+    </label>
+<input type="text" name="Your Name" value=""><br>
+
+<label>
+    Your Email: 
+</label>
+<input type="email" name="Your Email" value=""><br>
+<label>
+    Your Message: 
+</label>
+<textarea name="Your Message" rows="10" cols="30">
+
+</textarea>
+<input type="submit" name="" >
+<br>
+<br>
+</form>
+<button class="butt" type="button" onclick="displayDate()">
+Click me to display Date and time
+</button>
+<p id="showDate"> </p>
+<center>
+<p class="copyright">&copy; 2022 Olubowale Oluwateniola @tenidaniels.</p>
+</center>
+</div>
+<center>
+    <a class="whats" href="https://wa.me/+2348186151624"><ion-icon name="logo-whatsapp"></ion-icon></a> 
+   <a class="linked" href="https://www.linkedin.com/in/olubowale-oluwateniola-362905200"><ion-icon name="logo-linkedin"></ion-icon></a> 
+    </a><ion-icon name="mail-open"><a</ion-icon>
+</center>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>

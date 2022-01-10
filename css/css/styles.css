@@ -1,0 +1,189 @@
+body{
+    min-height: 100%;
+    
+    background-color: powderblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image:url("pix1.jpg");
+ }
+
+
+ hr{
+    
+     border-style: none;
+     border-top-style: dotted;
+     border-color: grey;
+     border-width: 5px;
+   
+     width: 5%;
+ }
+
+ .bgg{
+    background-image:url("bg.jpg");
+ }
+ h1{
+ 
+ font-family: 'Licorice',cursive;
+ font-size: 2.7rem;
+ color: #1e8888
+ }
+ h2{
+    font-family: 'Montserrat',sans-serif;
+    color: #1e8888
+ }
+ h3{
+    
+    font-family: 'Montserrat',sans-serif;
+    color: #1e8888
+ }
+ img{
+     height: 300px;
+ }
+.circular--square{
+    border-radius: 50%;
+    
+}
+.container{
+    position: relative;
+    text-align: center;
+    font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;
+}
+.top-container{
+text-align: center;
+}
+.bottomcloud{
+    position: absolute;
+}
+.topcloud{
+    position: relative;
+}
+.work{
+    text-align: center;
+    width: 65% ;
+    margin: auto;
+}
+ul{
+width: 40%;
+margin: auto;
+
+}
+ol{
+width: 20%;
+margin: auto;
+}
+.hubbies{
+    width: 50% ;
+    margin: auto;
+    
+}
+.books{
+    width: 70% ;
+    margin: auto;
+}
+.skillz{
+    line-height: 1;
+}
+.hub{
+    width: 20%;
+}
+.window{
+    width: 15%;
+    float: left;
+    
+}
+.skills{
+    line-height: 2;
+}
+.butt{
+    background-color: #66BFBF;
+}
+.btn {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+    .whats{
+        color: black;
+        transition: color 0.2s;
+        margin: 0 6px;
+    }
+    .whats:hover{
+        color: gray;
+    }
+    .linked{
+        color: black;
+        transition: color 0.2s;
+        margin: 0 10px;
+    }
+    .linked:hover{
+        color: gray;
+    }
+    .navbar{ display:flex;
+         top:0;
+          height:10vh; 
+          justify-content:space-between; 
+          align-items:center; 
+          padding:0px 20px;
+           background:#93dad0; 
+    }
+
+    .navsub{ display:flex; 
+        justify-content:space-between; 
+    }
+     .listitem { padding:10px;
+         list-style:none;
+         } 
+         .navlink{ 
+             color:inherit;
+              text-decoration:none; 
+            }
+            .ham{ display:none;
+                 padding:5px;
+                  cursor:pointer;
+                 } 
+                 .bar1,.bar2,.bar3{ 
+                     display:block;
+                      width:35px; 
+                      height:3px;
+                       margin:5px auto;
+                        background-color:#1e8888; 
+                        transition: 0.4s; }
+
+                        @media only screen and (max-width:768px){
+                             *{ overflow:hidden; }
+                              .navsub{ position:absolute; 
+                                top:10vh;
+                                 right:0px;
+                                  flex-direction:column;
+                                   background-color:rgba(83, 79, 79, 0.75);
+                                    border-radius:0px 0px 0px 20px; 
+                                    transition:transform 0.3s ease-in;
+                                     transform:translate(100%); }
+                                      .navchange{ transform:translate(0%); 
+                                    }
+                                     .ham{ display:block; }
+                                      .change .bar1 { transform: rotate(45deg) translate(8px,3px); } 
+                                      .change .bar2 { opacity: 0; } 
+                                      .change .bar3 { transform: rotate(-45deg) translate(8px,-3px); } }
